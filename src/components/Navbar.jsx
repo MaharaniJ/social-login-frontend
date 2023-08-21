@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = ({ user }) => {
   const logout = () => {
-    window.open("http://localhost:3000/auth/logout", "_self");
+    window.open("https://social-login-backend-7jnn.onrender.com/auth/logout", "_self");
   };
   return (
     <div className="navbar">
